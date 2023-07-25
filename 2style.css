@@ -2,3 +2,24 @@ hr{
 height: 3px;
 background-color: black;
 }
+body{
+background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+
+
+}
+a{
+color: white;
+}
+
+.entrance {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .entrance.in {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -5,3 +5,23 @@ background-color: black;
 h1{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+background-color: black;
+color: white;
+
+}
+a{
+color: white;
+margin: 20px;
+}
+
+.entrance {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .entrance.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
